@@ -14,17 +14,9 @@ package com.fundation.search.controlle;
  * with Jala Foundation.
  */
 
-import com.fundation.search.utils.Validator;
-
+/**
+ * Class controller.
+ */
 public class Controllers {
-    private Validator verificar;
-   // private Model model;
-    //private View view;
-
-    public Controllers() {
-        verificar = new Validator();
-    }
-
-    public static void main(String[] a) {}
 
 }
