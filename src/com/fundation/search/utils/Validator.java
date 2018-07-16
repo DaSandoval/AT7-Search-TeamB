@@ -131,10 +131,9 @@ public class Validator {
      */
     public boolean validateDate(String date) {
         try {
-            SimpleDateFormat formatofecha = new SimpleDateFormat("MM/dd/yyyy");
+            SimpleDateFormat formatofecha = new SimpleDateFormat("dd/MM/yyyy");
             formatofecha.setLenient(false);
             formatofecha.parse(date);
-            System.out.println(formatofecha.parse(date));
             return true;
         } catch (ParseException e) {
             return false;
