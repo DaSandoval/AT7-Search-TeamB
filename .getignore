@@ -1,0 +1,8 @@
+*.html
+*.xml
+*.log
+*.class
+/.gradle/
+/.idea/
+/build/
+/out/
