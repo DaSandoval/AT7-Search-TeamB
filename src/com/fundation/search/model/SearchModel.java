@@ -22,7 +22,7 @@ import java.util.StringJoiner;
  * @author Ana Mamani - AT-[07].
  * @version 1.0.
  */
-public class Search {
+public class SearchModel {
     /**
      * Method for search to path, fileName.
      * @param path address.

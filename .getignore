@@ -1,6 +1,6 @@
-*.html
 *.xml
 *.log
+*.html
 *.class
 /.gradle/
 /.idea/
